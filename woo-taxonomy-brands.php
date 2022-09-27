@@ -10,8 +10,8 @@
  *
  */
 
-if ( ! defined( 'WPINC' ) ) {
-	die;
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
 }
 
 define('WTB_PLUGIN_PREFIX', 'wtb_');
