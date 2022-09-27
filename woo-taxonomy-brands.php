@@ -10,6 +10,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: woocommerce-taxonomy-brands
  * Domain Path: /languages
+ * 
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
