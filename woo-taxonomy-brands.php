@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WooCommerce Taxonomy Brands
- * Plugin URI: https://woocommerce.com/
+ * Plugin URI: https://pedroavelar.com.br
  * Description: Um plugin para adicionar taxonomia de marcas nos produtos, aparecendo diretamente na single do produto.
  * Version: 0.0.1
  * Author: Pedro Avelar
