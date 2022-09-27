@@ -6,8 +6,10 @@
  * Version: 0.0.1
  * Author: Pedro Avelar
  * Author URI: https://pedroavelar.com.br
- * Text Domain: woo-taxonomy-brands
- *
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain: woocommerce-taxonomy-brands
+ * Domain Path: /languages
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
