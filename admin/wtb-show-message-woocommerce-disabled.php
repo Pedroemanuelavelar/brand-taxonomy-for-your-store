@@ -1,4 +1,5 @@
 <?php
+
 add_action( 'admin_init', 'wtb_plugin_check_if_woocommerce_installed' );
 function wtb_plugin_check_if_woocommerce_installed() {
 
