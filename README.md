@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== WooCommerce Taxonomy Brands ===
 Tags: woocommerce, marcas, taxonomia
 Tested up to: 6.0.2
 Requires PHP: 7.0 ou superior
