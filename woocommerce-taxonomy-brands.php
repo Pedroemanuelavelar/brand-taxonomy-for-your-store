@@ -6,6 +6,8 @@
  * Version: 1.0
  * Author: Pedro Avelar
  * Author URI: https://pedroavelar.com.br
+ * Developer: Pedro Avelar
+ * Developer URI: https://pedroavelar.com.br
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: woocommerce-taxonomy-brands
