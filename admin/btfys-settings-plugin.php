@@ -3,11 +3,11 @@
 
 
 /**
- * Adiciona na página de plugins links customizados ao plugin WooCommerceTaxonomy Brands
+ * Adiciona na página de plugins links customizados ao plugin Brand taxonomy for your store
  */
-add_filter('plugin_action_links_' . WTB_PLUGIN_BASE,  'wtb_custom_admin_plugin_link');
+add_filter('plugin_action_links_' . BTFYS_PLUGIN_BASE,  'btfys_custom_admin_plugin_link');
 
-function wtb_custom_admin_plugin_link( $links ) {
+function btfys_custom_admin_plugin_link( $links ) {
     
     $urls = [
         [

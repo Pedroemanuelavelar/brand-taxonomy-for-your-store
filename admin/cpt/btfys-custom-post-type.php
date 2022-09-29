@@ -1,5 +1,5 @@
 <?php
-function wtb_register_taxonomy_brands() {
+function btfys_register_taxonomy_brands() {
     $labels = array(
         'name'              => _x( 'Brands', 'taxonomy general name' ),
         'singular_name'     => _x( 'Brand', 'taxonomy singular name' ),
@@ -24,4 +24,4 @@ function wtb_register_taxonomy_brands() {
     );
     register_taxonomy( 'Brands', [ 'product' ], $args );
 }
-add_action( 'init', WTB_PLUGIN_PREFIX . 'register_taxonomy_brands' );
+add_action( 'init', BTFYS_PLUGIN_PREFIX . 'register_taxonomy_brands' );

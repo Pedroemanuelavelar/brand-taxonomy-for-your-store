@@ -1,13 +1,13 @@
 <?php
 
-add_action( 'admin_init', 'wtb_plugin_check_if_woocommerce_installed' );
-function wtb_plugin_check_if_woocommerce_installed() {
+add_action( 'admin_init', 'btfys_plugin_check_if_woocommerce_installed' );
+function btfys_plugin_check_if_woocommerce_installed() {
 
     // If WooCommerce is NOT installed, Deactivate the plugin
     if ( is_admin() && current_user_can( 'activate_plugins') && !is_plugin_active( 'woocommerce/woocommerce.php') ) {
 
         // Show dismissible error notice
-        add_action( 'admin_notices', 'wtb_plugin_woocommerce_check_notice' );
+        add_action( 'admin_notices', 'btfys_plugin_woocommerce_check_notice' );
 
         // Deactivate this plugin
         deactivate_plugins( plugin_basename( __FILE__) );
@@ -23,7 +23,7 @@ function wtb_plugin_check_if_woocommerce_installed() {
 }
 
 // Show dismissible error notice if WooCommerce is not present
-function wtb_plugin_woocommerce_check_notice() {
+function btfys_plugin_woocommerce_check_notice() {
     ?>
     <div class="alert alert-danger notice is-dismissible">
         <p>Sorry, but this plugin requires WooCommerce in order to work.
