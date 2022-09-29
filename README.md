@@ -1,4 +1,4 @@
-=== WooCommerce Taxonomy Brands ===
+=== Brand taxonomy for your store  ===
 Tags: woocommerce, marcas, taxonomia
 Tested up to: 6.0.2
 Requires PHP: 7.0 ou superior
