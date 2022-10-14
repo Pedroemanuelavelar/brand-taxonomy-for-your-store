@@ -9,6 +9,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: brand-taxonomy-for-your-store
  * Domain Path: /languages
+ * WC tested up to: 6.9.4
  * 
  */
 
