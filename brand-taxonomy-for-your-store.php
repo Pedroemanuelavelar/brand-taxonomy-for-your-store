@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Brand taxonomy for your store
+ * Plugin Name: Brand Taxonomy for your Store
  * Description: An additional plugin for woocommerce to add taxonomies of brands to products, appearing directly in the single of the product.
  * Version: 1.0
  * Author: Pedro Avelar
