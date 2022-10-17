@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Brand Taxonomy for your Store
  * Description: An additional plugin for woocommerce to add taxonomies of brands to products, appearing directly in the single of the product.
- * Version: 1.0
+ * Version: 1.0.0
  * Author: Pedro Avelar
  * Author URI: https://pedroavelar.com.br
  * License: GNU General Public License v3.0
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define('BTFYS_PLUGIN_PREFIX', 'btfys_');
-define('BTFYS_PLUGIN_VERSION', '1.0');
+define('BTFYS_PLUGIN_VERSION', '1.0.0');
 define('BTFYS_PLUGIN_DIR', plugin_dir_path( dirname(__FILE__) ) . 'brand-taxonomy-for-your-store/');
 
 if ( ! defined( 'BTFYS_PLUGIN_BASE' ) ) {
